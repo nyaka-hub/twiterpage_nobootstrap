@@ -1,0 +1,197 @@
+html{
+    height: auto;
+    min-height: 100%;
+    margin: 0;
+}
+.main{
+background: #fff;
+height: 100%;
+width: 100%;
+}
+
+body {
+    min-height: 100%;
+    height: auto;
+    margin: 0;
+    background: #e6ecf0;
+    color: #14171a;
+    font-size: 14px;
+    line-height: 20px;
+    overflow-y: scroll;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.innerTop{
+    display: flex;
+    /*min-height: 100%;
+    height: 100%;
+    bottom: 0;
+    width: 100%;*/
+    flex-grow: 1;
+
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+    
+}
+
+.leftHalf{
+    
+    width: 50%;
+    background: #1da1f2;
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    overflow: hidden;
+    
+}
+.leftInnerHalf{
+    color: #fff;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+}
+.icons{
+    margin: 48px 0px;
+    line-height: 24px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.rightHalf{
+    width: 50%;
+    position: relative;
+    background: #fff;
+    align-items: center;
+}
+.rightInnerHalf{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.jointitle{
+    margin-top: 48px;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 16px auto;
+}
+.innerBottom{
+    display: flex;
+    position: static;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto;
+}
+.bottomList{
+display: inline-block;
+padding: 0 9px 0 9px;
+}
+.leftHalf .twitterIcon-bird{
+    height: 93vh;
+    right: -80vh;
+    top: -20vh;
+    overflow: hidden;
+    max-width: none;
+    
+}
+.iconLogin{
+    justify-content: space-between;
+    margin: 16px auto;
+    display: flex;
+
+
+}
+
+a:hover{
+color: #1da1f2;
+background: #eaf5fd;
+}
+
+a, a:visited{
+    position: relative;
+    color: #1da1f2;
+    text-decoration: none;
+    border-radius: 100px;
+    box-shadow: 0;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    padding: 12px;
+    font-size: 14px;
+    line-height: 20px;
+    border: 1px solid #1da1f2;
+
+
+}
+.footerlist{
+    color: #aab8c2;
+    font-size: 12px;
+}
+
+.footerlist a{
+    color: #aab8c2;
+    font-size: 12px;
+    border: none;
+    padding: 0px;
+
+}
+.footerlist a:visited{
+    text-decoration: non;
+}
+.footerlist a:hover{
+    text-decoration: underline;
+    
+}
+.fab, .fa-twitter{
+color: #1da1f2;
+font-size: 48px;
+
+}
+h1{
+    line-height: 32px;
+    font-size: 27px;
+}
+.signup_btn{
+    display: block;
+    margin-bottom: 16px;
+    padding: 6px 16px;
+    background-color: #1da1f2;
+    color: #fff;
+    
+}
+.signup_btn a:visited{
+    text-decoration: none;
+    color: #fff; 
+}
+.login{
+    display: block;
+    margin-bottom: 16px;
+    padding: 6px 16px;
+}
+
+.Final-Horizon{
+    stroke: none;
+    stroke-width: 1;
+    fill: none;
+    fill-rule: evenodd;
+}
+.Artboard{
+    transform: translate(-286, -117);
+    fill-rule: nonzero;
+    fill: rgb(27, 149, 224);
+}
+#signup{
+    color: white;
+}
+#signup:hover{
+    color: #1da1f2;
+}
